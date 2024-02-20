@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Sanake 2D Game",
+    "imageSrc": "projects/snakeGame.jpeg",
+    "description": "This is a 2D game for windows build . This is a team project I am a level designer in this project  ",
+    "skills": ["Unity", "C#", "Photoshop"],
+    "demo": "https://www.linkedin.com/posts/parakkrama-dasanayaka-2a43b5216_gamedevelopment-leveldesign-unity-activity-7072061482779213824-bcSf?utm_source=share&utm_medium=member_desktop",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Puzzel Game",
+    "imageSrc": "projects/PuzzelGame.jpeg",
+    "description": "This is a mobile puzzele game.Suffeled tyles correct oder",
+    "skills": ["Unity", "C#"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Hand Tracking for Game ",
+    "imageSrc": "projects/Handtracking.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["Unity", "Phython", "C#"],
+    "demo": "https://www.linkedin.com/posts/parakkrama-dasanayaka-2a43b5216_unity-opencv-handgesturedetection-activity-7141412173620068352-Q8wn?utm_source=share&utm_medium=member_desktop",
+    "source": "https://github.com/Parakkrama24/GameJam_02"
+  },
+  {
+    "title": "Adventure Game 3D",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["C£", "Unity"],
+    "demo": "https://parakkrama24.itch.io/adventure-build",
+    "source": "https://github.com/Parakkrama24/handTrackingUnity-.git"
+  }
+]
