@@ -39,7 +39,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>3D Designer</h3>
               <p>
-                I have designed hard sarface 3d modales using blender software,
+                I have designed hard sarface 3d modales using blender software
                 
               </p>
             </div>
