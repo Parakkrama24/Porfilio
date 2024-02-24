@@ -27,8 +27,17 @@
     "title": "Adventure Game 3D",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["C£", "Unity"],
+    "skills": ["C#", "Unity"],
     "demo": "https://parakkrama24.itch.io/adventure-build",
     "source": "https://github.com/Parakkrama24/handTrackingUnity-.git"
+  }
+  ,
+  {
+    "title": "Student registration system ",
+    "imageSrc": "projects/registationSystem.png",
+    "description": "This is a project made to under programming project module  in my degree course.I use unity engine and firebase database system for this creation  ",
+    "skills": ["C#", "Unity","Firebase"],
+    "demo": "https://www.linkedin.com/posts/parakkrama-dasanayaka-2a43b5216_unity-firebase-programmingproject-activity-7167162266612682752-BnbO?utm_source=share&utm_medium=member_desktop",
+    "source": "https://github.com/Parakkrama24/StudentRegistration_system.git"
   }
 ]
