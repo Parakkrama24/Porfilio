@@ -1,0 +1,15 @@
+[
+    {
+        "title":"DBMS",
+        "imageSrc":"YoutubeConetnt/dbms.jpg",
+        "description":"Data base management system - create database using MySQL ",
+        "Link":"https://youtu.be/mv-vnVB1uIU?si=Q2HmpKygdqu8aw47"
+    },
+    {
+        "title":"DSA",
+        "imageSrc":"YoutubeConetnt/Dsa.png",
+        "description":"Data Structures and Algorithms using C language ",
+        "Link":"https://www.youtube.com/playlist?list=PLQeOOLmf_rAQC8EhNyKEX43hwMQP52pw7&jct=sYMW3jNgUjQLnb3N_SwkmVKeKYieZw"
+    }
+    
+]
