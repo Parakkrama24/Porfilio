@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from "./Playlist.Module.css"
+import styles from "./Playlist.module.css"
 import playdata from '../../data/youTube.json';
 import { Card } from "./card";
 
