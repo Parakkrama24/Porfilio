@@ -1,4 +1,5 @@
 import styles from "./App.module.css";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import { About } from "./components/About/About";
 import { Contact } from "./components/Contact/Contact";
 import { Experience } from "./components/Experience/Experience";
@@ -9,7 +10,8 @@ import { PlayList } from "./components/youtubeList/PlayList";
 
 function App() {
   return (
-    <div className={styles.App}>
+    <Router>
+      <div className={styles.App}>
       <Navbar />
       <Hero />
       <About />
@@ -17,7 +19,9 @@ function App() {
       <Projects />
       <PlayList/>
       <Contact />
-    </div>
+      </div>
+     
+    </Router>
   );
 }
 
