@@ -9,7 +9,7 @@ import { Card } from "./Card";
 export const PlayList = () => {
   return (
    <section className={styles.container}  id ="Videos">
-    <h2 id="video">Youtube Channel</h2>
+    <h2 id="video" className='text-3xl'>Youtube Channel</h2>
     <div className={styles.player}>
         {playdata.map((data,id)=>{
             return <Card key={id}  data={data}/>;

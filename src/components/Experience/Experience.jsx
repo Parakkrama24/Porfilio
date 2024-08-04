@@ -1,9 +1,20 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 import styles from "./Experience.module.css";
 import skills from "../../data/skills.json";
-import history from "../../data/history.json";
 import { getImageUrl } from "../../utils";
+
+const skillVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: (i) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: i * 0.1,
+      duration: 0.5,
+    },
+  }),
+};
 
 export const Experience = () => {
   return (
@@ -13,37 +24,24 @@ export const Experience = () => {
         <div className={styles.skills}>
           {skills.map((skill, id) => {
             return (
-              <div key={id} className={styles.skill}>
+              <motion.div
+                key={id}
+                className={styles.skill}
+                custom={id}
+                initial="hidden"
+                animate="visible"
+                variants={skillVariants}
+              >
                 <div className={styles.skillImageContainer}>
                   <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
                 </div>
                 <p>{skill.title}</p>
-              </div>
+              </motion.div>
             );
           })}
         </div>
-        {/* <ul className={styles.history}>
-          {history.map((historyItem, id) => {
-            return (
-              <li key={id} className={styles.historyItem}>
-                <img
-                  src={getImageUrl(historyItem.imageSrc)}
-                  alt={`${historyItem.organisation} Logo`}
-                />
-                <div className={styles.historyItemDetails}>
-                  <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
-                  <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
-                  <ul>
-                    {historyItem.experiences.map((experience, id) => {
-                      return <li key={id}>{experience}</li>;
-                    })}
-                  </ul>
-                </div>
-              </li>
-            );
-          })}
-        </ul> */}
       </div>
+      
     </section>
   );
 };
