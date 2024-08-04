@@ -35,4 +35,14 @@
     "title": "Figma",
     "imageSrc": "skills/figma.png"
   }
+  ,
+  {
+    "title": "Fluter",
+    "imageSrc": "skills/flutter.png"
+  }
+  ,
+  {
+    "title": "MySql",
+    "imageSrc": "skills/mysql.png"
+  }
 ]

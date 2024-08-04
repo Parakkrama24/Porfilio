@@ -13,6 +13,7 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  margin-top: 3px;
 }
 
 .content {
@@ -44,7 +45,9 @@
   justify-content: center;
   width: 120px;
   height: 120px;
+  box-shadow: 10px 12px 18px rgba(0, 0, 0, 0.2); /* Example shadow */
 }
+
 
 .skillImageContainer img {
   width: 75px;

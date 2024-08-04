@@ -52,7 +52,8 @@ export const Projects = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="absolute bottom-0 right-0 top-[150rem] w-100 h-100 bg-blue-200 rounded-full blur-xl opacity-75 md:w-100 md:h-100" /> 
+       
+      
       </section>
     </>
   );
