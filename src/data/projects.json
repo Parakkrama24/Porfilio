@@ -58,4 +58,42 @@
     "demo": "https://www.linkedin.com/posts/parakkrama-dasanayaka-2a43b5216_flutter-webdevelopment-cicd-activity-7221694059550056449-9qen?utm_source=share&utm_medium=member_desktop",
     "source": "https://github.com/Parakkrama24/anniversary.git"
   }
+  ,
+  {
+    "title": "Third Person Shooter Game",
+    "imageSrc": "projects/shootingGame.png",
+    "description": "This Project created as my personal project and I love to create games.This is a not a polised game but I love to create this game  ",
+    "skills": [ "Unreal Engine"],
+    "demo": "https://www.linkedin.com/posts/parakkrama-dasanayaka-2a43b5216_gamedev-unreal-activity-7258755425754316800-4Pwq?utm_source=share&utm_medium=member_desktop",
+    "source": "https://www.linkedin.com/posts/parakkrama-dasanayaka-2a43b5216_gamedev-unreal-activity-7258755425754316800-4Pwq?utm_source=share&utm_medium=member_desktop"
+  }
+  ,
+  {
+    "title": "Game jam-Homben Yamu -Game ",
+    "imageSrc": "projects/hobenYamu.png",
+    "description": "This Project developed for a game jam competition. This is a 3D game and I developed within 3 days (csgd game jam)  ",  
+    "skills": [ "Unity","C#"],
+    "demo": "https://www.linkedin.com/posts/parakkrama-dasanayaka-2a43b5216_gamedevelopment-unity2d-gamedesign-activity-7233321551213813762-PqX1?utm_source=share&utm_medium=member_desktop",
+    "source": "https://github.com/Parakkrama24/Homben_AI_game.git"
+  }
+  ,
+  {
+    "title": "Cosmic life-line  ",
+    "imageSrc": "projects/cosmic_lifline.jpeg",
+    "description": "This Project developed by my remote intern project based xr heldevXR lab",  
+    "skills": [ "Unity","C#"],
+    "demo": "https://www.linkedin.com/posts/parakkrama-dasanayaka-2a43b5216_hobenm-yamu-game-jam-project-gameplay-activity-7226159238975254528-jUSA?utm_source=share&utm_medium=member_desktop",
+    "source": "https://www.linkedin.com/posts/heladev_cosmiclifeline-gamerelease-indiegames-activity-7239599551571976193-lDKY?utm_source=share&utm_medium=member_desktop"
+  }
+  ,
+  {
+    "title": "Ar based Mobile ecommerce application ",
+    "imageSrc": "projects/arMobile.png",
+    "description": "This Project developed under mobile application development module in my degree course.Also this is a group project.My main part is front end development",  
+    "skills": [ "Flutter","Firebase"],
+    "demo": "https://www.linkedin.com/posts/parakkrama-dasanayaka-2a43b5216_ecommerce-mobileappdevelopment-flutter-activity-7280555044851040256-cImI?utm_source=share&utm_medium=member_desktop",
+    "source": "https://github.com/Parakkrama24/ar_funitur_mb.git"
+  }
+
+
 ]

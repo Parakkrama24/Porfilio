@@ -12,6 +12,10 @@
     "imageSrc":"skills/unreal.png"
   },
   {
+    "title": "Spring Boot",
+    "imageSrc": "skills/spring.png"
+  },
+  {
     "title": "HTML",
     "imageSrc": "skills/html.png"
   },
