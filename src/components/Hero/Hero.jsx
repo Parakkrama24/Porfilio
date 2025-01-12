@@ -15,25 +15,25 @@ export const Hero = () => {
   };
 
   return (
-    <section className="relative flex flex-col items-center justify-center text-center p-8 md:flex-row md:text-left md:justify-between md:p-12">
+    <section className="relative flex flex-col items-center justify-center p-8 text-center md:flex-row md:text-left md:justify-between md:p-12">
       {/* Hero Image */}
-      <div className="flex justify-center items-center md:w-1/2 mb-8 md:mb-0">
+      <div className="flex items-center justify-center mb-8 md:w-1/2 md:mb-0">
         <img
-          src={getImageUrl("hero/heroImage.png")}
+          src={getImageUrl("hero/hero.jpg")}
           alt="Hero image of me"
-          className="w-40 h-40 rounded-full object-cover md:w-60 md:h-60 lg:w-72 lg:h-72"
+          className="object-cover w-40 h-40 rounded-full md:w-60 md:h-60 lg:w-72 lg:h-72"
         />
       </div>
 
       {/* Hero Text */}
       <div className="flex flex-col items-center justify-center md:items-start md:w-1/2">
-        <h1 className="text-4xl font-bold mb-4 md:text-6xl text-white text-center md:text-left">
+        <h1 className="mb-4 text-4xl font-bold text-center text-white md:text-6xl md:text-left">
           Hi, I'm Parakkrama
         </h1>
-        <h3 className="font-bold mb-4 text-white text-center md:text-left">I'm a</h3>
-        <div className="relative h-12 md:h-16 text-center md:text-left">
+        <h3 className="mb-4 font-bold text-center text-white md:text-left">I'm a</h3>
+        <div className="relative h-12 text-center md:h-16 md:text-left">
           {/* Typing Effect */}
-          <span className="text-lg md:text-xl text-white">
+          <span className="text-lg text-white md:text-xl">
             <Typewriter
               words={["Game Developer", "Web Developer", "Mobile Developer"]}
               loop={false}
@@ -45,7 +45,7 @@ export const Hero = () => {
             />
           </span>
         </div>
-        <p className="text-lg mb-6 md:text-2xl text-white text-center md:text-left">
+        <p className="mb-6 text-lg text-center text-white md:text-2xl md:text-left">
           with 3 years of experience using Unity Engine and C#. Reach out if you'd like to learn more!
         </p>
 
@@ -53,13 +53,13 @@ export const Hero = () => {
         <div className="flex flex-col items-center md:flex-row">
           <a
             href="mailto:parakkramadasanayaka.2@gmail.com"
-            className="bg-blue-500 text-white px-4 py-2 rounded-full mb-4 md:mb-0 md:mr-4 hover:bg-blue-600 text-center"
+            className="px-4 py-2 mb-4 text-center text-white bg-blue-500 rounded-full md:mb-0 md:mr-4 hover:bg-blue-600"
           >
             Contact Me
           </a>
           <button
             onClick={downloadCv}
-            className="bg-green-500 text-white px-4 py-2 rounded-full hover:bg-green-600 text-center"
+            className="px-4 py-2 text-center text-white bg-green-500 rounded-full hover:bg-green-600"
           >
             Download CV
           </button>

@@ -13,7 +13,7 @@ export const Projects = () => {
   const [noOfElements, setNoOfElements] = useState(4);
 
   return (
-    <>
+    <div>
       <section className={styles.container} id="projects">
         <h2 className={styles.title}>Projects</h2>
         <Swiper
@@ -83,6 +83,6 @@ export const Projects = () => {
           ))}
         </Swiper>
       </section>
-    </>
+    </div>
   );
 };
