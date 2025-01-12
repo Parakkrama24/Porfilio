@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Playlist.module.css";
 import playdata from "../../data/youTube.json";
-import CardNew from "../youtubeList/cardNew";
+import CardNew from "./CardNew";
 
 export const PlayList = () => {
   return (
