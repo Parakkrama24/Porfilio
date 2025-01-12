@@ -3,13 +3,34 @@
         "title":"DBMS",
         "imageSrc":"YoutubeConetnt/dbms.jpg",
         "description":"Data base management system",
-        "Link":"https://youtu.be/mv-vnVB1uIU?si=Q2HmpKygdqu8aw47"
+        "link":"https://youtu.be/mv-vnVB1uIU?si=Q2HmpKygdqu8aw47"
     },
     {
         "title":"DSA",
         "imageSrc":"YoutubeConetnt/Dsa.png",
         "description":"Data Structures and Algorithms using C language ",
-        "Link":"https://www.youtube.com/playlist?list=PLQeOOLmf_rAQC8EhNyKEX43hwMQP52pw7&jct=sYMW3jNgUjQLnb3N_SwkmVKeKYieZw"
+        "link":"https://www.youtube.com/playlist?list=PLQeOOLmf_rAQC8EhNyKEX43hwMQP52pw7&jct=sYMW3jNgUjQLnb3N_SwkmVKeKYieZw"
+    }
+    ,
+    {
+        "title":"Git hub",
+        "imageSrc":"YoutubeConetnt/git_hub.jpg",
+        "description":"Git hub , version controling and collaboration",
+        "link":"https://youtu.be/16Qb3jqXXJY"
+    }
+    ,
+    {
+        "title":"Design Patterns",
+        "imageSrc":"YoutubeConetnt/pattern.jpg",
+        "description":"Object orianted design patterns",
+        "link":"https://youtu.be/LhfNSosCN6c"
+    }
+    ,
+    {
+        "title":"Scriptable Objects in Unity",
+        "imageSrc":"YoutubeConetnt/scripatble.jpg",
+        "description":"How to use scriptable objects in unity",
+        "link":"https://youtu.be/sqtqGDRdq5k"
     }
     
 ]
