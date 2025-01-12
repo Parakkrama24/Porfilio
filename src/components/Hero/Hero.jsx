@@ -17,7 +17,7 @@ export const Hero = () => {
   return (
     <section className="relative flex flex-col items-center justify-center p-8 text-center md:flex-row md:text-left md:justify-between md:p-12">
       {/* Hero Image */}
-      <div className="flex items-center justify-center mb-8 md:w-1/2 md:mb-0">
+      <div className="flex items-center justify-center mb-8 md:w-1/2 md:mb-3">
         <img
           src={getImageUrl("hero/hero.jpg")}
           alt="Hero image of me"
