@@ -93,6 +93,14 @@
     "skills": [ "Flutter","Firebase"],
     "demo": "https://www.linkedin.com/posts/parakkrama-dasanayaka-2a43b5216_ecommerce-mobileappdevelopment-flutter-activity-7280555044851040256-cImI?utm_source=share&utm_medium=member_desktop",
     "source": "https://github.com/Parakkrama24/ar_funitur_mb.git"
+  },
+  {
+    "title": "2.5D Platformer game ",
+    "imageSrc": "projects/Platformer.png",
+    "description": "This Project developed client request for platformer game",  
+    "skills": [ "unity","c#"],
+    "demo": "https://www.linkedin.com/posts/parakkrama-dasanayaka-2a43b5216_unity-gamedevfun-programming-activity-7284859778491629568-x9Zj?utm_source=share&utm_medium=member_desktop",
+    "source": "https://github.com/Parakkrama24/2.5D_Assignment-.git"
   }
 
 
