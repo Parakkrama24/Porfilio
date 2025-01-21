@@ -6,7 +6,7 @@ export const Hero = () => {
   const downloadCv = () => {
     const link = document.createElement("a");
     link.href = "/path-to-your-cv.pdf"; // Replace with the actual path to your CV
-    link.download = "Parakkrama_CV.pdf";
+    link.download = "ParakkramaDasanayaka.pdf";
     link.click();
   };
 
