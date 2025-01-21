@@ -2,10 +2,11 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
 
+
 export const Hero = () => {
   const downloadCv = () => {
     const link = document.createElement("a");
-    link.href = "/path-to-your-cv.pdf"; // Replace with the actual path to your CV
+    link.href = "../../../public/ParakkramaDasanayaka.pdf"; // Replace with the actual path to your CV
     link.download = "ParakkramaDasanayaka.pdf";
     link.click();
   };
