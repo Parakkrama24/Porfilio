@@ -6,8 +6,8 @@ import { Typewriter } from "react-simple-typewriter";
 export const Hero = () => {
   const downloadCv = () => {
     const link = document.createElement("a");
-    link.href = "../../../public/ParakkramaDasanayaka.pdf"; // Replace with the actual path to your CV
-    link.download = "ParakkramaDasanayaka.pdf";
+    link.href = "https://firebasestorage.googleapis.com/v0/b/sproject-d6684.appspot.com/o/Pdf%2FParakkrama%20Dasanayaka%20(2).pdf?alt=media&token=ecad0220-2611-440a-ba12-bb7d11c5fb63"; // Replace with the actual path to your CV
+    link.download = "https://firebasestorage.googleapis.com/v0/b/sproject-d6684.appspot.com/o/Pdf%2FParakkrama%20Dasanayaka%20(2).pdf?alt=media&token=ecad0220-2611-440a-ba12-bb7d11c5fb63";
     link.click();
   };
 
