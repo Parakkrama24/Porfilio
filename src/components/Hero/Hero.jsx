@@ -20,7 +20,7 @@ export const Hero = () => {
       {/* Hero Image */}
       <div className="flex items-center justify-center mb-8 md:w-1/2 md:mb-3">
         <img
-          src={"https://cdn.pixabay.com/photo/2022/02/25/08/13/blood-oranges-7033738_960_720.jpg"}
+          src={"https://firebasestorage.googleapis.com/v0/b/sproject-d6684.appspot.com/o/images%2FheroImage.png?alt=media&token=fb89aceb-6d25-4c40-8d6a-89587d653452"}
           alt="Hero image of me"
           className="object-cover w-40 h-40 rounded-full md:w-60 md:h-60 lg:w-72 lg:h-72"
         />
