@@ -67,19 +67,7 @@ export const Hero = () => {
         </div>
       </div>
 
-      {/* Animated Background Circles */}
-      <motion.div
-        className="absolute top-0 left-0 w-40 h-40 bg-blue-100 rounded-full blur-xl md:w-64 md:h-64"
-        initial={{ scale: 0 }}
-        animate={{ scale: 1 }}
-        transition={{ duration: 1, ease: "easeInOut" }}
-      />
-      <motion.div
-        className="absolute bottom-0 right-0 w-32 h-32 bg-blue-200 rounded-full blur-xl md:w-48 md:h-48"
-        initial={{ scale: 0 }}
-        animate={{ scale: 1 }}
-        transition={{ duration: 1, ease: "easeInOut" }}
-      />
+      
     </section>
   );
 };
