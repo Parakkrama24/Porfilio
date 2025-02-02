@@ -20,7 +20,7 @@ export const Hero = () => {
       {/* Hero Image */}
       <div className="flex items-center justify-center mb-8 md:w-1/2 md:mb-3">
         <img
-          src={getImageUrl("hero/heroImage.png")}
+          src={"https://cdn.pixabay.com/photo/2022/02/25/08/13/blood-oranges-7033738_960_720.jpg"}
           alt="Hero image of me"
           className="object-cover w-40 h-40 rounded-full md:w-60 md:h-60 lg:w-72 lg:h-72"
         />
