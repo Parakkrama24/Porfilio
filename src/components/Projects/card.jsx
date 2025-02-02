@@ -7,12 +7,20 @@ const Card = ({
 }) => {
   return (
     <StyledWrapper>
-      <div className="card">
-        <div className="imageWrapper">
+      <div className="card"
+      >
+        <div className="imageWrapper"
+        >
           <img
             src={getImageUrl(imageSrc)}
             alt={`Image of ${title}`}
             className="image"
+            style={{
+              width: "300px",
+              boxShadow: "0px 15px 25px -5px rgba(173, 216, 230, 0.7)", // Light blue shadow
+              borderRadius: "10px", // Optional: Smooth corners
+              backgroundColor: "#fff", // Optional: Light background for better contrast
+            }}
           />
         </div>
         <h3 className="title">{title}</h3>

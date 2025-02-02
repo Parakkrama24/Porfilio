@@ -14,7 +14,8 @@ export const Projects = () => {
 
   return (
     <div>
-      <section className={styles.container} id="projects">
+      <section className={styles.container} id="projects"
+      >
         <h2 className={styles.title}>Projects</h2>
         <Swiper
           slidesPerView={1}

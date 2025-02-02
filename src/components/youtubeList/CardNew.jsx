@@ -6,21 +6,31 @@ import { getImageUrl } from "../../utils";
 const CardNew = ({ data: { title, imageSrc, description, link } }) => {
   return (
     <StyledWrapper>
-      <div className="card">
-        <div className="img-container">
-          <div className="img" style={{ backgroundImage: `url(${getImageUrl(imageSrc)})` }}>
-          <a href={link} target="_blank" rel="noopener noreferrer" className="link">
-              <button onClick={link}>View</button>
-              </a>
+      <div
+  className="card"
+  style={{
+    width: "300px",
+    boxShadow: "0px 15px 25px -5px rgba(173, 216, 230, 0.7)", // Light blue shadow
+    borderRadius: "10px", // Optional: Smooth corners
+    backgroundColor: "#fff", // Optional: Light background for better contrast
+  }}
+>
+  <div className="img-container">
+    <div
+      className="img"
+      style={{ backgroundImage: `url(${getImageUrl(imageSrc)})` }}
+    >
+      <a href={link} target="_blank" rel="noopener noreferrer" className="link">
+        <button onClick={link}>View</button>
+      </a>
+    </div>
+    <div className="description card">
+      <span className="title">{title}</span>
+      <p className="text">{description}</p>
+    </div>
+  </div>
+</div>
 
-          </div>
-          <div className="description card">
-            <span className="title">{title}</span>
-            <p className="text">{description}</p>
-         
-          </div>
-        </div>
-      </div>
     </StyledWrapper>
   );
 };

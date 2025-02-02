@@ -11,7 +11,11 @@ import { PlayList } from "./components/youtubeList/PlayList";
 function App() {
   return (
     <Router>
+      
+
+      
       <div className={styles.App}>
+      <div className={styles.container}>
       <Navbar />
       <Hero />
       <About />
@@ -19,6 +23,7 @@ function App() {
       <Projects />
       <PlayList/>
       <Contact />
+      </div>
       </div>
      
     </Router>
