@@ -16,9 +16,9 @@ export const PlayList = () => {
         <Swiper
           modules={[Navigation, Pagination]}
           spaceBetween={10}
-          navigation={true}
+          navigation
           pagination={{ clickable: true }}
-          loop={true}
+          loop
           className="mySwiper"
           breakpoints={{
             320: { slidesPerView: 1, spaceBetween: 5 }, // Small phones
