@@ -20,7 +20,7 @@ export const Projects = () => {
         <Swiper
           slidesPerView={1}
           spaceBetween={10}
-          freeMode={true}
+          freeMode
           pagination={{
             clickable: true,
           }}
